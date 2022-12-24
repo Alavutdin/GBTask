@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 Clear();
-WriteLine("Введите число от 1 до ");
+Write("Введите число от 1 до ");
 int.TryParse(ReadLine(), out int n);
 
 while(n>0)
